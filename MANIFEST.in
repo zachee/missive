@@ -1,0 +1,3 @@
+graft missive/templates
+graft missive/static
+include missive/schema.sql
