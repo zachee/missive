@@ -6,7 +6,9 @@ Note taking web app based on the Flask tutorial found [here](http://flask.pocoo.
 
 You can inially build the missive database by running factory.py as the main module
 
-`python missive/factory.py`
+```
+python missive/factory.py
+```
 
 I suggest downloading sqlite3 to checkthe DB was built properly
 
@@ -14,10 +16,14 @@ I suggest downloading sqlite3 to checkthe DB was built properly
 
 This app uses a python setup file so it can be installed like any other program. From the top level directory:
 
-`pip install --editable .`
+```
+pip install --editable .
+```
 
 This program uses the Flask app factory pattern so it can be run from the runner module:
 
-```export FLASK_APP=missive.run
+```
+export FLASK_APP=missive.run
 export FLASK_DEBUG=true  # if you want debugging enabled
-flask run```
+flask run
+```
