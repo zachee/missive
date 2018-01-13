@@ -4,13 +4,13 @@ Note taking web app based on the Flask tutorial found [here](http://flask.pocoo.
 
 ## Building the Database
 
-You can inially build the missive database by running factory.py as the main module
+You can initially build the missive database by running factory.py as the main module
 
-```
+```s
 python missive/factory.py
 ```
 
-I suggest downloading sqlite3 to checkthe DB was built properly
+I suggest downloading sqlite3 to insure that the DB was built properly
 
 ## Running the app
 

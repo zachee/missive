@@ -43,3 +43,4 @@ Thumbs.db
 # Flask generated files #
 ######################
 *.egg-info/
+.eggs/
